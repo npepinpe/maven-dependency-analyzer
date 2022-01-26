@@ -30,6 +30,9 @@ import java.util.Set;
  */
 public interface DependencyAnalyzer
 {
+    /** Constant <code>ROLE="DependencyAnalyzer.class.getName()"</code> */
+    @Deprecated
+    String ROLE = DependencyAnalyzer.class.getName();
 
     /**
      * <p>analyze.</p>

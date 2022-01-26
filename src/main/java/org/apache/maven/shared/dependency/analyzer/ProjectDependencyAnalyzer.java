@@ -34,6 +34,10 @@ import org.apache.maven.project.MavenProject;
  */
 public interface ProjectDependencyAnalyzer
 {
+    /** Constant <code>ROLE="ProjectDependencyAnalyzer.class.getName"{trunked}</code> */
+    @Deprecated
+    String ROLE = ProjectDependencyAnalyzer.class.getName();
+
     /**
      * <p>analyze.</p>
      *
